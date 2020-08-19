@@ -48,17 +48,4 @@ Traveller.prototype.getUniqueModesOfTransport = function () {
   return uniqueTransport;
 };
 
-// Add to list if uniquetransport does not include journey.transport
-
-// Traveller.prototype.getUniqueModesOfTransport = function() {
-//   const uniqueTransport = [];
-//   for(let journey of this.journeys) {
-//     if(uniqueTransport.includes(journey.transport) === false) {
-//       uniqueTransport.push(journey.transport);
-//     }
-//   }
-//   return uniqueTransport;
-// }
-
-
 module.exports = Traveller;
